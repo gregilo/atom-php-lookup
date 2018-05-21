@@ -1,7 +1,7 @@
 {
   "name": "atom-php-lookup",
   "main": "./lib/atom-php-lookup",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quick access to the official PHP documentation",
   "keywords": [],
   "activationCommands": {
