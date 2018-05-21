@@ -2,12 +2,12 @@
   "name": "atom-php-lookup",
   "main": "./lib/atom-php-lookup",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Quick access to the official PHP documentation",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-php-lookup:toggle"
   },
-  "repository": "https://github.com/atom/atom-php-lookup",
+  "repository": "https://github.com/gregilo/atom-php-lookup",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
