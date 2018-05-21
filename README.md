@@ -1,6 +1,6 @@
 # Atom PHP Lookup
 
-This module aims to provide easy access to the core methods in PHP without having to leave Atom.
+This module aims to provide easy access to the documentation for the core methods in PHP in Atom.
 
 ## Usage
 
