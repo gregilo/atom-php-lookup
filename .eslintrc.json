@@ -1,0 +1,51 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "browser": true,
+    "jasmine": true
+  },
+  "rules": {
+    "func-names": "off",
+    "guard-for-in": "off",
+    "keyword-spacing": "warn",
+    "prefer-destructuring": ["error", {
+        "array": false,
+        "object": true
+    }],
+    "max-len": [
+      "error", 100, 2, {
+        "ignoreUrls": true,
+        "ignoreComments": false,
+        "ignoreRegExpLiterals": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreUrls": true,
+        "ignorePattern": "^\\s*(function|.factory|.service|.controller|.config|.run|.filter|.component|constructor)"
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "error", {
+        "max": 4,
+        "maxEOF": 2
+      }
+    ],
+    "no-param-reassign": [
+      "error", {
+        "props": false
+      }
+    ],
+    "no-restricted-syntax": "warn",
+    "no-trailing-spaces": [
+      "error", {
+        "skipBlankLines": true
+      }
+    ],
+    "no-use-before-define": [
+      "error", {
+        "functions": false,
+        "classes": false
+      }
+    ],
+    "padded-blocks": "off"
+  }
+}
